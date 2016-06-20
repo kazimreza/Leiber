@@ -1,0 +1,180 @@
+<!doctype html>
+<!-- Created by KazimReza on 6/2/2016 -->
+<!-- index.html -->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initoal-scale=1">
+        <title>Leiber</title>
+       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/styles.css">
+       
+    </head>
+    <header>
+           <div id="myCarousel" class="carousel slide img-center" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            
+            
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="http://lorempixel.com/g/900/200">
+              <div class="carousel-caption">
+                <h3>Image 1</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="http://lorempixel.com/900/200/sports/1">
+              <div class="carousel-caption">
+                <h3>Image 2</h3>
+                <p>Hello, heello, hello...</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://placekitten.com/900/200">
+              <div class="carousel-caption">
+                <h3>Image 3</h3>
+                <p>Hello, heello, hello...</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://placebear.com/900/200">
+              <div class="carousel-caption">
+                <h3>Image 4</h3>
+                <p>Hello, heello, hello...</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://lorempixel.com/900/200/sports/1">
+              <div class="carousel-caption">
+                <h3>Image 5</h3>
+                <p>Hello, heello, hello...</p>
+              </div>
+            </div>
+            
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        
+           
+            <nav id="header-nav" class="navbar navbar-default">
+                <div class="container">
+                   
+                        <div class="navbar-brand">
+                            <a href="index.html"><h1>My Business, LLC</h1></a>
+                        </div>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        
+                    </div>
+                   <div id="collapsable-nav" class="collapse navbar-collapse">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right">      <li>
+                            <a href="ideas.html" target="_blank"><span class="visible-xs">Ideas</span></a>
+                            </li>
+                            <li>
+                                <a href="selection.html" target="_blank"><span class="visible-xs">Selection</span></a>
+                            </li>
+                             <li>
+                                 <a href="about.html" target="_blank"><span class="visible-xs">About</span></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                
+            </nav>
+        </header>
+    <body>
+      
+      hr width="90%">
+        
+        <div id="ideaHeading"> Ideas</div><hr width="90%">
+        <div class="container">
+           <marquee class="hidden-xs" behavior="alternate">
+            <a href="index.html" class="btn btn-success" role="button">HOME</a>
+            <a href="selection.html" class="btn btn-primary" role="button">SELECTION</a>
+            <a href="about.html" class="btn btn-info" role="button">ABOUT</a>
+            <a href="#footerContact" class="btn btn-warning" role="button">CONTACT</a>
+            </marquee>
+        </div><hr width="90%">
+       <div class="container">
+  <h2>Accordion Example</h2>
+  <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">About Us</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Our Products</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        We offer a wide variety of products to choose from, we can keep your family feeling comfortable all year long. We carry a complete line of indoor comfort equipment with innovations that raise the standards of comfort and reliability, including air conditioners, heat pumps, gas furnaces, programmable thermostats, humidifiers, ductless split systems, and zoning products. Let the experts at Leibers Heating & Air Conditioning help you customize a solution that's right for you.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Our Services</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+  </div>
+</div>
+       
+       
+       
+       
+       
+        <div class="container">
+           <a href="#header-nav"><br> Top of page</a>
+        </div>
+    </body>
+    
+    
+    <script src="js/jquery-2.2.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+</html>
